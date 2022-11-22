@@ -16,5 +16,5 @@ test('homepage has title and links to intro page', async ({ page }) => {
   await getStarted.click();
 
   // Expects the URL to contain intro.
-  await expect(page).toHaveURL(/.*intro/);
+  await expect(page).toHaveURL(/.*introd/);
 });
